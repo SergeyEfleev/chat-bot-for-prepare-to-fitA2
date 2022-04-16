@@ -10,7 +10,7 @@ from vk_api.utils import get_random_id
 from enum import Enum
 
 
-vk_session = vk_api.VkApi(token='338ed412f0b62efca9b876232c333151d742c731936b00e713725b57926d047eae540d5d18ed3d3e41f21')
+vk_session = vk_api.VkApi(token='token')
 
 
 vk = vk_session.get_api()
